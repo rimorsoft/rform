@@ -3,7 +3,8 @@
     "description": "Extension of laravel collective package",
     "type": "library",
     "require": {
-        "laravelcollective/html": "^5.4"
+        "laravelcollective/html": "^5.4",
+        "illuminate/support": "~5"
     },
     "license": "MIT",
     "authors": [
@@ -12,8 +13,8 @@
             "email": "i@italomoralesf.com"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"rimorsoft\\rform\\": "src/"}
+        "psr-4": {"Rimorsoft\\Rform\\": "src/"}
     }
 }

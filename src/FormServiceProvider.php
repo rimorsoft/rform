@@ -1,6 +1,6 @@
 <?php
 
-namespace Rimorsoft\rForm;
+namespace Rimorsoft\Rform;
 
 use Form;
 use Illuminate\Support\ServiceProvider;
@@ -14,6 +14,7 @@ class FormServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        /*
         Form::component('rText',     'rimorsoft.components.form.text',    ['name', 'label', 'attributes']);
         Form::component('rTextarea', 'rimorsoft.components.form.textarea',['name', 'label', 'attributes']);
         Form::component('rSearch',   'rimorsoft.components.form.search',  ['name', 'route']);
@@ -21,6 +22,7 @@ class FormServiceProvider extends ServiceProvider
         Form::component('rRadio',    'rimorsoft.components.form.radio',   ['name', 'label', 'items']);
         Form::component('rSelect',   'rimorsoft.components.form.select',  ['name', 'label', 'items']);
         Form::component('rSubmit',   'rimorsoft.components.form.submit',  ['label']);
+        **/
     }
 
     /**
@@ -30,6 +32,6 @@ class FormServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'rimorsoft');
+        //$this->loadViewsFrom(__DIR__.'/../resources/views', 'rimorsoft');
     }
 }
