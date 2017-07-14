@@ -15,5 +15,5 @@
     "minimum-stability": "beta",
     "autoload": {
         "psr-4": {"rimorsoft\\rform\\": "src/"}
-    },
+    }
 }
