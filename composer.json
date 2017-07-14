@@ -1,0 +1,19 @@
+{
+    "name": "rimorsoft/rform",
+    "description": "Extension of laravel collective package",
+    "type": "library",
+    "require": {
+        "laravelcollective/html": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "italomoralesf",
+            "email": "i@italomoralesf.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {"rimorsoft\\rform\\": "src/"}
+    },
+}
